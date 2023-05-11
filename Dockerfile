@@ -13,6 +13,7 @@ ADD ./broker.js .
 
 # expose port
 EXPOSE 1883
+EXPOSE 80
 
 # execute app.js
 ENTRYPOINT ["node", "broker.js"]
